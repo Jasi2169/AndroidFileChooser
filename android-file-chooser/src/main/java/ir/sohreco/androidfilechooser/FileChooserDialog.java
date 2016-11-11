@@ -117,7 +117,6 @@ public class FileChooserDialog extends AppCompatDialogFragment implements ItemHo
          */
         public Builder setInitialDirectory(File initialDirectory) {
             if (initialDirectory == null)
-                
                 throw new NullPointerException("initialDirectory can't be null.");
 
             if (!initialDirectory.exists())
